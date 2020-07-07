@@ -15,45 +15,6 @@ class _MyAppState extends State<MyApp> {
   User user = null;
   @override
   Widget build(BuildContext context) {
-    // return MaterialApp(
-    //   home: Scaffold(
-    //     appBar: AppBar(
-    //       title: Text("API DEMO"),
-    //     ),
-    //     body: Center(
-    //       child: Column(
-    //         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-    //         children: <Widget>[
-    //           Text((postResult != null)
-    //               ? "Id        :" +
-    //                   postResult.id +
-    //                   "\n\n" +
-    //                   "Nama :" +
-    //                   postResult.name +
-    //                   "\n\n" +
-    //                   "Job     :" +
-    //                   postResult.job
-    //               : "Data Null"),
-    //           // Text("tidak ada data"),
-    //           RaisedButton(
-    //             onPressed: () {
-    //               PostResult.connectToAPI("Janet Weaver", "Mahasiswa")
-    //                   .then((value) {
-    //                 postResult = value;
-    //                 setState(() {});
-    //               });
-    //               // User.connectToAPI('3').then((value) {
-    //               //   user = value;
-    //               //   setState(() {});
-    //               // });
-    //             },
-    //             child: Text("POST"),
-    //           ),
-    //         ],
-    //       ),
-    //     ),
-    //   ),
-    // );
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
